@@ -1,0 +1,18 @@
+
+name: Guild Creation
+
+slots: 27
+
+items:
+    create:
+        slots: [12]
+        item: GREEN_TERRACOTTA
+        function: 'create'
+        name: '&aCreate a guild!'
+        lore: {}
+    back:
+        slots: [14]
+        item: RED_TERRACOTTA
+        function: back
+        name: '&aBack'
+        lore: {}

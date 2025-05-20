@@ -1,0 +1,60 @@
+# Hiệu ứng Âm Thanh khi dịch chuyển
+Sounds:
+  Enabled: true # Bật hiệu ứng âm thanh
+  ProtocolLibSound: false # Sử dụng ProtocolLib để xử lý âm thanh nâng cao (nếu dùng)
+  Delay: entity_tnt_primed # Âm thanh khi chờ dịch chuyển (ví dụ: TNT chuẩn bị nổ)
+  Success: entity_generic_explode # Âm thanh khi dịch chuyển thành công
+
+# Hiệu ứng Tiêu Đề (Title/SubTitle) hiển thị trên màn hình người chơi
+Titles:
+  Enabled: true
+  
+  NoDelay: # Khi không có thời gian chờ
+    Title: '&6Đang dịch chuyển...'
+    Subtitle: '&7Vui lòng đợi một chút!'
+    SendMessage: true
+  
+  Teleport: # Khi dịch chuyển thành công
+    Title: '&aĐã dịch chuyển!'
+    Subtitle: '&fTọa độ: X=%x% Y=%y% Z=%z%'
+    SendMessage: true
+  
+  Delay: # Trong lúc đếm ngược dịch chuyển
+    Title: ''
+    Subtitle: '&eDịch chuyển sau %time% giây...'
+    SendMessage: true
+  
+  Cancelled: # Khi bị hủy do người chơi di chuyển
+    Title: '&cĐã hủy dịch chuyển'
+    Subtitle: '&7Bạn đã di chuyển nên quá trình bị hủy!'
+    SendMessage: true
+  
+  Loading: # Khi đang tải chunk
+    Title: ''
+    Subtitle: '&7Đang tải vùng an toàn...'
+    SendMessage: true
+  
+  Failed: # Khi không tìm thấy vị trí an toàn
+    Title: '&cKhông thể dịch chuyển'
+    Subtitle: '&7Không tìm được vị trí an toàn để dịch chuyển!'
+    SendMessage: true
+
+# Hiệu ứng Hạt (Particle) khi dịch chuyển
+Particles:
+  Enabled: true
+  Type:
+  - EXPLOSION_NORMAL
+  - CRIT
+  Shape: EXPLODE # Kiểu hạt: có thể là SCAN, TELEPORT hoặc EXPLODE
+
+# Bảo vệ người chơi không bị sát thương sau khi dịch chuyển
+Invincible:
+  Enabled: true
+  Seconds: 5 # Người chơi sẽ không nhận sát thương trong 5 giây sau khi dịch chuyển
+
+# Hiệu ứng thuốc tạm thời sau khi dịch chuyển
+Potions:
+  Enabled: true
+  Types:
+  - Blindness:60:1
+  - Invisibility:60:1

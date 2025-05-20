@@ -1,0 +1,19 @@
+
+chat-prefix: "*"
+
+uppercase-tags: true
+rules:
+    tag:
+        matches: "[a-zA-Z-_!?]+"
+        min-length: 3
+        max-length: 4
+    name:
+        matches: "[a-zA-Z -_!?]+"
+        min-length: 3
+        max-length: 14
+
+
+
+
+
+max-size: 40

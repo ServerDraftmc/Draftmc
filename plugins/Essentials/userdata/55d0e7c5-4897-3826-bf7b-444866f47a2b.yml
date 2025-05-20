@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747667692582
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747669271974
+  login: 1747668998166
+money: '0'
+last-account-name: Giarbinop006
+lastlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: 95.77843645339257
+  y: 102.75530407474533
+  z: -330.219662968634
+  yaw: 22.595947265625
+  pitch: 39.4500846862793
+logoutlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -61.926154029855596
+  y: 96.85023133934409
+  z: -306.8424614444414
+  yaw: -28.72101593017578
+  pitch: 8.69975471496582

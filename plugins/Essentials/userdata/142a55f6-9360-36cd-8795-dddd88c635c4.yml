@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747713688862
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747704808187
+  login: 1747712959132
+money: '0'
+last-account-name: TomCraft_98
+lastlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -74.94145253056686
+  y: 86.38651267279353
+  z: -301.49571865456994
+  yaw: -103.53521728515625
+  pitch: 12.750040054321289
+logoutlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -86.51249998807907
+  y: 86.0
+  z: -291.07812454756083
+  yaw: -50.74365234375
+  pitch: 0.7427735924720764

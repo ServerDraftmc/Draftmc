@@ -1,0 +1,20 @@
+
+name: Choose your path...
+
+slots: 27
+
+items:
+    back:
+        function: back
+        slots: [26]
+        item: RED_STAINED_GLASS_PANE
+        name: '&aBack to Class Selection'
+        lore: []
+    arcane-mage:
+        slots: [13]
+        function: sub-class-arcane-mage
+        name: '&a&lThe Arcane Mage'
+        lore:
+        - '{lore}'
+        - ''
+        - '{attribute-lore}'

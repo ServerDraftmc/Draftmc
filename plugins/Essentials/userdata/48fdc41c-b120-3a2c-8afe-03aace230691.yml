@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747461284592
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747464006250
+  login: 1747463114062
+money: '0'
+last-account-name: Gus_sonlam
+lastlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -111.11310178018108
+  y: 83.04160349724197
+  z: 46.21663837197806
+  yaw: -106.95062255859375
+  pitch: 69.15001678466797
+logoutlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -82.73565838093353
+  y: 92.7509878522173
+  z: -287.06689465206387
+  yaw: 147.4263916015625
+  pitch: 44.099971771240234

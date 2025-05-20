@@ -1,0 +1,9 @@
+
+diamond-drop-table:
+    items:
+    - 'vanilla{type=DIAMOND} 1 1-3'
+    - 'droptable{id=other-drop-table} .1'
+
+other-drop-table:
+    items:
+    - 'vanilla{type=STONE_SLAB} 1 1-3'

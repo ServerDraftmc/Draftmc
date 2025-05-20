@@ -1,0 +1,206 @@
+config-version: 9
+
+auto-save:
+  enabled: true
+  interval: 1800 # In seconds (1800 = 30 minutes)
+  log: true
+
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: minecraft
+  user: mmolover
+  pass: ILovePhoenixDev
+  maxPoolSize: 10
+  maxLifeTime: 300000
+  connectionTimeOut: 10000
+  leakDetectionThreshold: 150000
+  properties:
+    cachePrepStmts: true
+    prepStmtCacheSize: 250
+    prepStmtCacheSqlLimit: 2048
+
+default-playerdata:
+  level: 1
+  class-points: 0
+  skill-points: 0
+  skill-realloc-points: 0
+  attribute-points: 0
+  attribute-realloc-points: 0
+  health: 20
+  mana: 0
+  stellium: 0
+  stamina: 0
+
+
+custom-mine-conditions:
+  - 'world{name="world,world_nether,world_the_end"}'
+  - 'region{name="example_region,example_region2,__global__"}'
+
+protect-custom-mine: false
+
+party-plugin: mmocore
+
+guild-plugin: mmocore
+
+chance-stat-weight:
+  loot-chests: 1
+  fishing-drops: 1
+  drop-items: 1
+
+skill-tree-scroll-step-x: 1
+skill-tree-scroll-step-y: 1
+
+should-cobblestone-generators-give-exp: false
+
+skill-casting:
+  mode: SKILL_BAR
+  open: SWAP_HANDS
+  disable-sneak: false
+  use-lowest-keybinds: true
+
+loot-chests:
+
+  chest-expire-time: 600
+
+  player-cooldown: 600
+
+global-skill-cooldown: 10
+
+action-bar:
+
+  enabled: true
+
+  time-out: 60
+
+  ticks-to-update: 5
+
+  format: "&c❤ {health}/{max_health} &f| {mana_icon} {mana}/{max_mana} &f| &7⛨ {armor}"
+
+party:
+
+  buff:
+
+    health-regeneration: 3%
+
+    additional-experience: 5
+
+  chat-prefix: '@'
+
+  max-players: 8
+
+  max-level-difference: 3
+
+  max-exp-split-range: 48
+
+  main-exp-split: true
+
+  profession-exp-split: false
+
+mmocore-quests:
+
+  disable-boss-bar: false
+
+vanilla-exp-redirection:
+  enabled: false
+  ratio: 0.8
+
+override-vanilla-exp: true
+
+force-class-selection: true
+
+shift-click-player-profile-check: false
+
+display-main-class-exp-holograms: true
+
+enable-global-skill-tree-gui: true
+
+enable-specific-skill-tree-gui: true
+
+death-exp-loss:
+  enabled: false
+
+  percent: 30
+
+passive-skill-need-bound: true
+
+can-creative-cast: false
+
+prevent-spawner-xp: true
+
+combat-log:
+
+  timer: 10
+
+  causes:
+    - CRAMMING
+    - DRAGON_BREATH
+    - ENTITY_ATTACK
+    - ENTITY_EXPLOSION
+    - ENTITY_SWEEP_ATTACK
+    - MAGIC
+    - POISON
+    - PROJECTILE
+    - SONIC_BOOM
+    - THORNS
+    - WITHER
+
+save-default-class-info: false
+
+waypoints:
+
+  default-warp-time: 100
+
+  link_reciprocity: false
+
+  auto_path_calculation: true
+
+resource-bar-colors:
+  stamina-whole: 'GREEN'
+  stamina-half: 'DARK_GREEN'
+  stamina-empty: 'WHITE'
+
+command-verbose:
+  attribute: true
+  skill: true
+  class: true
+  experience: true
+  level: true
+  nocd: true
+  skill-tree-points: true
+  points: true
+  reset: true
+  resource: true
+  waypoint: true
+
+pvp_mode:
+
+  enabled: false
+
+  min_level: 0
+
+  max_level_difference: 10
+
+  combat_timeout: 30
+
+  invulnerability:
+    time:
+      region_change: 60
+      command: 30
+
+    can_damage: false
+
+    apply_to_pvp_flag: true
+
+  cooldown:
+
+    region_enter: 20
+
+    region_leave: 20
+
+    combat: 45
+
+    toggle_on: 5
+
+    toggle_off: 3

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747714593225
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747710770767
+  login: 1747712969628
+money: '0'
+last-account-name: tungsten
+lastlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -88.57410187369386
+  y: 94.0
+  z: -323.2639311449652
+  yaw: -68.13720703125
+  pitch: 43.050148010253906
+logoutlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -87.34774105607889
+  y: 81.49390748022948
+  z: -271.33100116017965
+  yaw: 166.92083740234375
+  pitch: 40.6497802734375

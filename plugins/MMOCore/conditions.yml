@@ -1,0 +1,7 @@
+test-condition:
+  - 'level{amount=10}'
+  - 'from{source=test-condition-2}'
+
+test-condition-2:
+  - 'world{name=world}'
+  - 'level{profession=MINING;amount=3}'

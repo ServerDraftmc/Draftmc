@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747647880297
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747669074862
+  login: 1747668410064
+money: '0'
+last-account-name: BeTinNho
+lastlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -51.623
+  y: 79.0
+  z: -324.5
+  yaw: 0.8038378953933716
+  pitch: 38.39035415649414
+logoutlocation:
+  world: a64b6822-b8d3-4b54-9782-b468f4d31da1
+  world-name: world
+  x: -74.23660622318022
+  y: 79.0
+  z: -319.7546171346744
+  yaw: 99.46783447265625
+  pitch: -0.931293249130249

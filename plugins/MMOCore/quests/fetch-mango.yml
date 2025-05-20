@@ -1,0 +1,29 @@
+
+name: 'The Exotic Fruit'
+
+lore:
+- 'Gimme mangoes please.'
+- ''
+- '&eRewards:'
+- '&7► 10 Gold coins'
+- '&7► 30 EXP'
+
+parent: []
+
+delay: 0
+
+objectives:
+    1:
+        type: 'mineblock{type=OAK_LOG;amount=8}'
+        lore: 'Mangoes only grow in Oak trees. Go break 8 oak logs!'
+        triggers:
+        - message{format="&aThank you! Those mangoes are gonna drop from these leaves."}
+        - sound{sound=ENTITY_EXPERIENCE_ORB_PICKUP;pitch=1;volume=1}
+    2:
+        type: 'getitem{type=APPLE;npc=1;amount=2}'
+        lore: 'Bring me mangoes.'
+        triggers:
+        - message{format="&aThis looked like apple. But owell, thanks! Here are a a few coins'"}
+        - sound{sound=ENTITY_EXPERIENCE_ORB_PICKUP;pitch=1;volume=1}
+        - command{format="mmocore coins %player_name% 10"}
+        - 'experience{amount=30}'
